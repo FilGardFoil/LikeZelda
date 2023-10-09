@@ -30,14 +30,14 @@ public class RoomMove : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         // HACK обход проблемы с двойной отработкой перехода из за задержки взаимодействия триггера коллайдера.
-        var curentTransferTime = Time.fixedTime;
+        //var curentTransferTime = Time.fixedTime;
 
-        if (curentTransferTime > transferTimer)
-        {
-            transferTimer = curentTransferTime;
+        //if (curentTransferTime > transferTimer)
+        //{
+        //    transferTimer = curentTransferTime;
 
             // Организация перехода камеры на другую область.
-            if (other.gameObject.CompareTag("Player"))
+            if (other.gameObject.CompareTag("Player") && !other.isTrigger) // починил работу хака, просто исключив другие тригеры player'a.
             {          
                 cam.minPosition += cameraChange;
                 cam.maxPosition += cameraChange;
@@ -49,7 +49,7 @@ public class RoomMove : MonoBehaviour
                     StartCoroutine(PlaceNameCoroutine());
                 }
             }
-        }
+        //}
     }
 
     // обработка отображения текст с установленным значением и последующим исчезанием.
