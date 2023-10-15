@@ -1145,9 +1145,23 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1978781224, guid: b3b138196564b054e8390dba9b9592d4, type: 3}
+      propertyPath: fadeWait
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978781224, guid: b3b138196564b054e8390dba9b9592d4, type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 1970823601588534195, guid: 70773f11fa4642a4cabd0eb7cac1859e,
+        type: 3}
+    - target: {fileID: 1978781224, guid: b3b138196564b054e8390dba9b9592d4, type: 3}
       propertyPath: sceneToLoad
       value: HouseInterior
       objectReference: {fileID: 0}
+    - target: {fileID: 1978781224, guid: b3b138196564b054e8390dba9b9592d4, type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 6541948060083846994, guid: db2fd0e2a18107941a64bfae4077771b,
+        type: 3}
     - target: {fileID: 1978781224, guid: b3b138196564b054e8390dba9b9592d4, type: 3}
       propertyPath: playerStorage
       value: 
