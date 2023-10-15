@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,11 +12,13 @@ public class RoomMove : MonoBehaviour
     public string placeName;
     public GameObject text;
     public Text placeText;
+    private float transferTimer;
     
     // Start is called before the first frame update
     void Start()
     {
         cam = Camera.main.GetComponent<CameraMovement>();
+        transferTimer = Time.fixedTime;
     }
 
     // Update is called once per frame
@@ -27,19 +29,27 @@ public class RoomMove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Организация перехода камеры на другоую область.
-        if (other.CompareTag("Player"))
-        {
-            cam.minPosition += cameraChange;
-            cam.maxPosition += cameraChange;
-            other.transform.position += playerChange;
+        // HACK обход проблемы с двойной отработкой перехода из за задержки взаимодействия триггера коллайдера.
+        //var curentTransferTime = Time.fixedTime;
 
-            // Отображение название области при переходе.
-            if (needText)
-            {
-                StartCoroutine(PlaceNameCoroutine());
+        //if (curentTransferTime > transferTimer)
+        //{
+        //    transferTimer = curentTransferTime;
+
+            // Организация перехода камеры на другую область.
+            if (other.gameObject.CompareTag("Player") && !other.isTrigger) // починил работу хака, просто исключив другие тригеры player'a.
+            {          
+                cam.minPosition += cameraChange;
+                cam.maxPosition += cameraChange;
+                other.transform.position += playerChange;
+
+                // Отображение название области при переходе.
+                if (needText)
+                {
+                    StartCoroutine(PlaceNameCoroutine());
+                }
             }
-        }
+        //}
     }
 
     // обработка отображения текст с установленным значением и последующим исчезанием.
