@@ -15,7 +15,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -45,6 +45,9 @@ TagManager:
     locked: 0
   - name: Sings
     uniqueID: 1817789227
+    locked: 0
+  - name: Breakable
+    uniqueID: 2125124827
     locked: 0
   - name: Player
     uniqueID: 3808106505

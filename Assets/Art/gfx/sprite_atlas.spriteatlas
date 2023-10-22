@@ -125,6 +125,7 @@ SpriteAtlas:
   - {fileID: -2431439944167368855, guid: 1d1ec7d024d410b45b1c15089f80e6a2, type: 3}
   - {fileID: 7274838496166343488, guid: 1d1ec7d024d410b45b1c15089f80e6a2, type: 3}
   - {fileID: -8506932439865520012, guid: 1d1ec7d024d410b45b1c15089f80e6a2, type: 3}
+  - {fileID: 21300000, guid: d0e8e2b32491f1a45905d9c81b973329, type: 3}
   - {fileID: 21300000, guid: cdd5721afe5e0d94eb9f971348000411, type: 3}
   - {fileID: 136123638574666257, guid: 316e7f5a0a78c2b408c59917cb681df7, type: 3}
   - {fileID: 293919518158258091, guid: 316e7f5a0a78c2b408c59917cb681df7, type: 3}
@@ -1710,6 +1711,7 @@ SpriteAtlas:
   - character_73
   - character_70
   - character_71
+  - key
   - NPC_test
   - Overworld_827
   - Overworld_837

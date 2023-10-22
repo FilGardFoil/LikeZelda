@@ -36,20 +36,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\HeartManager.cs" />
-     <Compile Include="Assets\Scripts\Knockback.cs" />
+     <Compile Include="Assets\Scripts\Game Stuff\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\Game Stuff\Knockback.cs" />
      <Compile Include="Assets\Scripts\Log.cs" />
-     <Compile Include="Assets\Scripts\PlayerHit.cs" />
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\Scripts\Pot.cs" />
-     <Compile Include="Assets\Scripts\RoomMove.cs" />
-     <Compile Include="Assets\Scripts\SceneTransition.cs" />
+     <Compile Include="Assets\Scripts\Objects\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Objects\Pot.cs" />
+     <Compile Include="Assets\Scripts\Objects\RoomMove.cs" />
+     <Compile Include="Assets\Scripts\Objects\SceneTransition.cs" />
+     <Compile Include="Assets\Scripts\Objects\Sign.cs" />
+     <Compile Include="Assets\Scripts\Objects\TreasureChest.cs" />
+     <Compile Include="Assets\Scripts\Player Scripts\ContextClue.cs" />
+     <Compile Include="Assets\Scripts\Player Scripts\HeartManager.cs" />
+     <Compile Include="Assets\Scripts\Player Scripts\PlayerHit.cs" />
+     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\FloatValue.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Inventory.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\Item.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\SignaL.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\VectorValue.cs" />
-     <Compile Include="Assets\Scripts\Sign.cs" />
      <Compile Include="Assets\Scripts\SignalListener.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
