@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HouseInterior.unity
     guid: ebc82606ff673cc4b9bffe2e9a968d84
+  - enabled: 1
+    path: Assets/Scenes/AkelonDevs.unity
+    guid: 35f234f8d5aa20647898cfd6d0ccdc68
   m_configObjects: {}
