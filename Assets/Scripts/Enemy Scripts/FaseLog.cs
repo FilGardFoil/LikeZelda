@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,7 +28,6 @@ public class FaseLog : PatrolLog
             {
                 currentGoal = path[0];
                 animator.SetBool("wakeUp", false);
-                currentState = EnemyState.idle;
             }
         }
     }

@@ -11,11 +11,15 @@ public class HeartManager : MonoBehaviour
     public Sprite emptyHeart;
     public FloatValue heartContainers;
     public FloatValue playerCurrentHealth;
+    public Inventory playerInventory;
+    public Text coinCountText;
 
     // Start is called before the first frame update
     void Start()
     {
         InitHearts();
+        //playerInventory.ClearInventory();
+        coinCountText.text = playerInventory.numberOfCoins.ToString();
     }
 
     public void InitHearts()

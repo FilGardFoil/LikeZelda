@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,10 +7,13 @@ public class SceneTransition : MonoBehaviour
 {
     public string sceneToLoad;
     public Vector2 playerPosition;
+    public Vector2 camMaxPosition;
+    public Vector2 camMinPosition;
     public VectorValue playerStorage;
     public GameObject fadeInPanel;
     public GameObject fadeOutPanel;
     public float fadeWait;
+
 
     // Обработка панели перехода между сценами.
     private void Awake()
@@ -27,6 +30,8 @@ public class SceneTransition : MonoBehaviour
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             playerStorage.initialValue = playerPosition;
+            playerStorage.camInitialMaxValue = camMaxPosition;
+            playerStorage.camInitialMinValue = camMinPosition;
             StartCoroutine(FadeCoroutine());
         }
     }

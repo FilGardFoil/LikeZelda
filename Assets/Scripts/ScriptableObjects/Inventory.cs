@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,12 +8,17 @@ public class Inventory : ScriptableObject
     public Item currentItem;
     public List<Item> items = new List<Item>();
     public int numberOfKeys;
+    public int numberOfCoins;    
 
     public void AddItem(Item itemToAdd)
     {
         if (itemToAdd.isKey)
         {
             numberOfKeys++;
+        }
+        else if (itemToAdd.isCoin)
+        {
+            numberOfCoins++;            
         }
         else
         {
@@ -22,5 +27,13 @@ public class Inventory : ScriptableObject
                 items.Add(itemToAdd);
             }
         }
+
+                
+    }
+
+    public void ClearInventory()
+    {
+        numberOfCoins = 0;
+        numberOfKeys = 0;
     }
 }

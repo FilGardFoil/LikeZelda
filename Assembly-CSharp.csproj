@@ -42,6 +42,7 @@
      <Compile Include="Assets\Scripts\Enemy Scripts\PatrolLog.cs" />
      <Compile Include="Assets\Scripts\Game Stuff\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Game Stuff\Knockback.cs" />
+     <Compile Include="Assets\Scripts\Objects\FireEffect.cs" />
      <Compile Include="Assets\Scripts\Objects\GrowingTree.cs" />
      <Compile Include="Assets\Scripts\Objects\Interactable.cs" />
      <Compile Include="Assets\Scripts\Objects\OpenBook.cs" />
@@ -102,6 +103,7 @@
      <None Include="Assets\Tiled2Unity\Imported\OverwoldTest2.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\OverworldTest.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey-Instanced.shader" />
+     <None Include="Assets\Tiled2Unity\Imported\QuestHouse.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Shaders\shaDepth-Instanced.shader" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
