@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/AkelonDevs.unity
+    guid: 35f234f8d5aa20647898cfd6d0ccdc68
+  - enabled: 1
+    path: Assets/Scenes/CaveScene.unity
+    guid: e3a166c8705301a42804ea78e578ad4f
+  - enabled: 1
+    path: Assets/Scenes/QuestHouse.unity
+    guid: 113f35e141ba43848b339b53833ca798
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1

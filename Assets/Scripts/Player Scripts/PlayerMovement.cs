@@ -4,11 +4,11 @@ using UnityEngine;
 
 public enum PlayerState
 {
-    idle,
     walk,
     attack,
     interact,
-    stagger
+    stagger,
+    idle
 }
 
 public class PlayerMovement : MonoBehaviour
@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void RaiseItem()
-    {
+    {        
         if (playerInventory.currentItem != null)
         {
             if (currentState != PlayerState.interact)

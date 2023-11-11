@@ -4,12 +4,23 @@ using UnityEngine;
 
 public class ContextClue : MonoBehaviour
 {
-    public GameObject contextClue;
+    public GameObject contextClueQuest;
+    public GameObject contextClueActive;
     public bool contextActive = false;
 
-    public void ChangeContext()
+    public void ChangeContext()//bool isQuest)
     {
         contextActive = !contextActive;
-        contextClue.SetActive(contextActive);
+        contextClueQuest.SetActive(contextActive);
+        /*if (isQuest)
+        {
+            contextActive = !contextActive;
+            contextClueQuest.SetActive(contextActive);
+        }
+        else
+        {
+            contextActive = !contextActive;
+            contextClueActive.SetActive(contextActive);
+        }*/
     }
 }

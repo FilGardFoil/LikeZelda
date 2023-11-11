@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 624cfc01cfaa10340a73029ba79611aa, type: 3}
   m_Name: Player Position
   m_EditorClassIdentifier: 
-  initialValue: {x: 4.5, y: -7.5}
+  initialValue: {x: 13, y: -13}
   defaultValue: {x: 13, y: -13}
+  camInitialMaxValue: {x: 17, y: -6}
+  camDefaultMaxValue: {x: 17, y: -6}
+  camInitialMinValue: {x: 8, y: -19}
+  camDefaultMinValue: {x: 8, y: -19}

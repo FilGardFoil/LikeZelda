@@ -3646,9 +3646,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 560
-        width: 16
-        height: 16
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3688,9 +3688,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 288
-        y: 560
-        width: 16
-        height: 16
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3730,9 +3730,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 560
-        width: 16
-        height: 16
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5263,9 +5263,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 528
-        width: 16
-        height: 16
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5305,9 +5305,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 288
-        y: 528
-        width: 16
-        height: 16
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5347,9 +5347,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 320
-        y: 528
-        width: 16
-        height: 16
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6397,9 +6397,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 496
-        y: 512
-        width: 16
-        height: 16
+        y: 496
+        width: 32
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
