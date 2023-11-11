@@ -835,6 +835,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 672134442106299654, guid: 17f6d42ba6a9f604e89dc29f185eb731,
         type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 672134442106299654, guid: 17f6d42ba6a9f604e89dc29f185eb731,
+        type: 3}
       propertyPath: playerInventory
       value: 
       objectReference: {fileID: 11400000, guid: 9f03deb4ed2298143abf0f73b6046aae,

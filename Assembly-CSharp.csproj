@@ -45,6 +45,8 @@
      <Compile Include="Assets\Scripts\Objects\FireEffect.cs" />
      <Compile Include="Assets\Scripts\Objects\GrowingTree.cs" />
      <Compile Include="Assets\Scripts\Objects\Interactable.cs" />
+     <Compile Include="Assets\Scripts\Objects\LampLight.cs" />
+     <Compile Include="Assets\Scripts\Objects\LapmDestroy.cs" />
      <Compile Include="Assets\Scripts\Objects\OpenBook.cs" />
      <Compile Include="Assets\Scripts\Objects\OpenMagicBook.cs" />
      <Compile Include="Assets\Scripts\Objects\Pot.cs" />

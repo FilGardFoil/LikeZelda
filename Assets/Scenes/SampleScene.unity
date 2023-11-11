@@ -6132,6 +6132,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1329037841, guid: 48cfcfb1c7488c046bd2c07dce907a09, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5873407427992646986, guid: 48cfcfb1c7488c046bd2c07dce907a09,
         type: 3}
       propertyPath: coinCountText
@@ -13737,7 +13741,7 @@ PrefabInstance:
     - target: {fileID: 672134442106299654, guid: 17f6d42ba6a9f604e89dc29f185eb731,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 672134442106299654, guid: 17f6d42ba6a9f604e89dc29f185eb731,
         type: 3}
